@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+img:hover {
+    font-size: 50px;
+}
+
+#logo-ig {
+    width: 90px;
+    height: 90px;
+}
+
+#div-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logos {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    padding: 20px;
+    animation-name: logos;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    margin-left: 5px;
+}
+
+#logos-ig {
+    position: absolute;
+}
+
+#logos-facebook {
+    position: absolute;
+    margin-top: 160px;
+}
+
+#logos-twitter {
+    position: absolute;
+    margin-top: 320px;
+}
+
+
+.content {
+    animation-name: content;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logos {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 12%;
+        border-radius: 1em;
+    }
+}
+
+@keyframes content {
+
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: white;
+    }
+
+    50% {
+        color: white;
+    }
+
+    60% {
+        color: white;
+    }
+    
+}
+
+.h2-content {
+    border: none;
+    margin: 0 auto;
+    width: 20%;
+    height: 40px;
+    animation-name: h2-content;
+    animation-delay: 1.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes h2-content {
+    0%{
+        border: none;
+    }
+    100% {
+        border: 1px solid rgb(88, 71, 71);
+        border-radius: 0.3em;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 10px;
+        background-color: rgb(88, 71, 71);
+        color: white;
+    }
+}
+
+#borde {
+    animation-name: borde;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes borde {
+    100% {
+        background-color: rgb(88, 71, 71);
+        border-radius: 0.3em;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.content div {
+    margin-top: 20px;
+}

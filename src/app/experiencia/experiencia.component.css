@@ -1,0 +1,46 @@
+table th {
+    text-align: center;
+    border-left:1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    color: black;
+}
+
+table {
+    margin-top: 15px;
+}
+
+#rata {
+    animation-name: rata;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    width: 10%;
+}
+
+@keyframes rata {
+    0% {
+        margin-top: 300px;
+        color: red;
+    }
+
+    25% {
+
+        margin-left: 700px;
+        color: green;
+    }
+
+    50% {
+        text-align: left;
+        color: blue;
+    }
+
+    75% {
+        margin-left: 600px;
+        color: cadetblue;
+    }
+
+    100% {
+        color: aquamarine;
+    }
+}
